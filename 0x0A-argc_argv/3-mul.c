@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int num_1, num_2, mul;
 
 	if (argc != 3)
-		printf("Error\n")
+		printf("Error\n");
 	else
 	{
 		num_1 = atoi(argv[1]);
@@ -24,4 +24,3 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
-: wq
