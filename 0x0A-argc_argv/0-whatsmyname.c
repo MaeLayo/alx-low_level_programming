@@ -1,3 +1,4 @@
+#include "main.c"
 #include <stdio.h>
 
 /**
@@ -5,7 +6,7 @@
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * Return: Always 0
+ * Return: always 0
  */
 
 int main(int argc __attribute__((unused)), char *argv[])
