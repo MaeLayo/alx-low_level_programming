@@ -3,12 +3,12 @@
 
 /**
  * malloc_checked - allocates memory using malloc
- * @b: memory of allocate
+ * @b: memory to allocate
  *
  * Return: pointer to allocated memory or normal process termination if error
  */
 
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	void *p;
 
@@ -17,3 +17,4 @@ void *malloc_checked(unsigned int b);
 		exit(98);
 	return (p);
 }
+
